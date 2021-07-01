@@ -1,0 +1,169 @@
+body{
+    background-image : url("background.jpg");
+
+}
+
+h1{
+    color : black;
+
+    text-align : center;
+
+}
+
+h3{
+    color : black;
+
+    text-align : center;
+
+    font-size : 25px;
+
+}
+
+.header{
+    background-color : cyan;
+
+    margin-left : 40%;
+    margin-right : 40%;
+
+    border-radius : 20px;
+
+    text-align : center;
+
+    padding : 3px;
+
+}
+
+.favorite{
+    background-color : rgb(238, 163, 163);
+
+    margin-top : 30px;
+    margin-bottom : 30px;
+
+    padding : 2px;
+
+    margin-left : 40%;
+    margin-right : 40%;
+
+    border-radius : 20px;
+
+}
+
+.site-description{
+    display : flex;
+
+    flex-direction : column;
+
+    justify-content : first baseline;
+
+}
+
+.grid{
+    display : flex;
+
+    flex-wrap : wrap;
+
+    justify-content : space-evenly;
+
+    background-color : cadetblue;
+
+    border-radius : 65px;
+
+    padding : 30px;
+
+    opacity : 0.33;
+
+}
+
+h2, .p1{
+    text-align : center;
+
+    color : white;
+
+}
+
+
+p{
+    text-align : center;
+
+    font-weight : bold;
+
+    color : white;
+
+    font-size : 25px;
+
+}
+
+.item1, .items{
+    background-color : rgb(235, 34, 94);
+    
+    border-radius : 65px;
+
+}
+
+.item1 img{
+    border-radius : 65px;
+
+    opacity : 10;
+
+}
+
+.item1:hover img{
+    opacity : 0.33;
+
+}
+
+.items:hover img{
+    opacity : 0.33;
+
+}
+
+.item1, .items{
+    position : relative;
+
+}
+
+.item1 p{
+    position : absolute;
+
+    top : 45%;
+
+    left : 50%;
+
+    transform : translate(-50%, -50%);
+
+    opacity : 0;
+
+}
+
+.item1:hover p{
+    opacity : 1;
+
+}
+
+.items p{
+    position : absolute;
+
+    top : 45%;
+
+    left : 50%;
+
+    transform : translate(-50%, -50%);
+
+    opacity : 0;
+
+}
+
+.items:hover p{
+    opacity : 1;
+
+}
+
+.item1:hover{
+    transform : scale(1.1);
+
+}
+
+.items:hover{
+    transform : scale(1.1);
+
+}
